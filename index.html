@@ -1,74 +1,268 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="Sushi restaurant with fresh ingredients and artisanal preparation. Authentic flavors, quality service, and a unique Japanese dining experience.">
-      <meta name="robots" content="index, follow">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Receta autêntica de Ceviche Peruano. Descubre cómo preparar el plato insignia del Perú con ingredientes frescos y pasos simples.">
+   <meta name="robots" content="index, follow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+   <link rel="stylesheet" href="assets/css/styles.css">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <title>Ceviche Peruano | Receta Autêntica del Perú</title>
+</head>
+<body>
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <i class="ri-leaf-line"></i> Ceviche Peruano
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="#inicio" class="nav__link">Inicio</a></li>
+               <li><a href="#historia" class="nav__link">Historia</a></li>
+               <li><a href="#ingredientes" class="nav__link">Ingredientes</a></li>
+               <li><a href="#preparacion" class="nav__link">Receta</a></li>
+               <li><a href="#galeria" class="nav__link">Galería</a></li>
+            </ul>
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+         </div>
+      </nav>
+   </header>
 
-      <title>Sushi Restaurant | Authentic Japanese Flavors | Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER & NAV ====================-->
-      <header class="header" id="header">
-         
-      </header>
+   <main class="main">
+      <section class="home section" id="inicio">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <span class="home__subtitle"> Plato Nacional del Perú</span>
+               <h1 class="home__title">Ceviche Peruano</h1>
+               <h2 class="home__education">Sabor fresco del mar</h2>
+               <p class="home__description">
+                  Descubre la receta auténtica del ceviche peruano, el plato que conquista con su mezcla perfecta de frescura, sabor y tradición.
+               </p>
+               <a href="#preparacion" class="button">
+                  Ver Receta <i class="ri-arrow-right-line"></i>
+               </a>
+            </div>
+<div class="home__images">
+                <img src="assets/img/hero-ceviche.png" alt="Ceviche Peruano" class="home__img">
+                <div class="home__circle"></div>
+             </div>
+         </div>
+      </section>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME SECTION ====================-->
-         <section class="home section" id="home">
+      <section class="about section" id="historia">
+         <div class="about__container container grid">
+            <div class="about__group">
+               <img src="assets/img/historia-ceviche.png" alt="Historia del Ceviche" class="about__img">
+            </div>
+            <div class="about__data">
+               <span class="section__subtitle">Origen e Historia</span>
+               <h2 class="section__title about__title">
+                  Una tradición <span>milenaria</span>
+               </h2>
+               <p class="about__description">
+                  El ceviche es un plato tradicional peruano con más de 2,000 años de historia. Originario de la costa peruana, combina pescado fresco marinado en jugo de limón, cebolla morada, ají limo y cilantro. En 2024, el ceviche fue declarado <strong>Patrimonio Cultural Inmaterial del Perú</strong>, consolidando su lugar como símbolo de la gastronomía nacional.
+               </p>
+               <div class="about__cards">
+                  <div class="about__card">
+                     <i class="ri-award-line"></i>
+                     <h3>Patrimonio Cultural</h3>
+                     <p>Declarado Patrimonio Cultural Inmaterial del Perú</p>
+                  </div>
+                  <div class="about__card">
+                     <i class="ri-global-line"></i>
+                     <h3>Famoso Mundialmente</h3>
+                     <p>Uno de los platos más reconocidos de Latinoamérica</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="menu section" id="ingredientes">
+         <div class="menu__container container">
+            <span class="section__subtitle">Lo que necesitas</span>
+            <h2 class="section__title">Ingredientes <span>Principales</span></h2>
             
-         </section>
+            <div class="menu__content grid">
+               <div class="menu__card">
+                  <img src="assets/img/receta-pescado.jpg" alt="Pescado" class="menu__img" onerror="this.style.display='none'">
+                  <h3 class="menu__name">Pescado Fresco</h3>
+                  <span class="menu__detail">500g - Corvina, lenguado o merluza</span>
+               </div>
+               <div class="menu__card">
+                  <img src="assets/img/receta-limon.jpg" alt="Limón" class="menu__img" onerror="this.style.display='none'">
+                  <h3 class="menu__name">Limones</h3>
+                  <span class="menu__detail">8-10 limones (jugo fresco)</span>
+               </div>
+               <div class="menu__card">
+                  <img src="assets/img/receta-cebolla.jpg" alt="Cebolla" class="menu__img" onerror="this.style.display='none'">
+                  <h3 class="menu__name">Cebolla Morada</h3>
+                  <span class="menu__detail">1 mediana, en juliana fina</span>
+               </div>
+               <div class="menu__card">
+                  <img src="assets/img/receta-ajilimo.webp" alt="Ají" class="menu__img" onerror="this.style.display='none'">
+                  <h3 class="menu__name">Ají Limo</h3>
+                  <span class="menu__detail">1-2 units,picado fino</span>
+               </div>
+               <div class="menu__card">
+                  <img src="assets/img/receta-cilantro.webp" alt="Cilantro" class="menu__img" onerror="this.style.display='none'">
+                  <h3 class="menu__name">Cilantro</h3>
+                  <span class="menu__detail">Un manojo fresco, picado</span>
+               </div>
+               <div class="menu__card">
+                  <img src="assets/img/receta-chocloycamote.jpg" alt="Camote" class="menu__img" onerror="this.style.display='none'">
+                  <h3 class="menu__name">Camote y Choclo</h3>
+                  <span class="menu__detail">Acompañamientos típicos</span>
+               </div>
+            </div>
+         </div>
+      </section>
 
-         <!--==================== ABOUT SECTION ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+      <section class="new section" id="preparacion">
+         <div class="new__container container">
+            <span class="section__subtitle">Paso a paso</span>
+            <h2 class="section__title">Cómo preparar <span>tu Ceviche</span></h2>
 
-         <!--==================== MENU SECTION ====================-->
-         <section class="menu section" id="menu">
-            
-         </section>
+            <div class="new__content grid">
+               <div class="new__card">
+                  <span class="new__number">01</span>
+                  <h3 class="new__title">Cortar el pescado</h3>
+                  <p class="new__description">
+                     Corta el pescado en cubos de aproximadamente 2 cm. Asegúrate de que esté muy fresco y limpio.
+                  </p>
+               </div>
+               <div class="new__card">
+                  <span class="new__number">02</span>
+                  <h3 class="new__title">Sazonar con sal y ají</h3>
+                  <p class="new__description">
+                     Coloca el pescado en un bowl, añade sal y el ají limo picado. Mezcla suavemente.
+                  </p>
+               </div>
+               <div class="new__card">
+                  <span class="new__number">03</span>
+                  <h3 class="new__title">Añadir el limón</h3>
+                  <p class="new__description">
+                     Exprime los limones directamente sobre el pescado. El ácido del limón "cocina" el pescado.
+                  </p>
+               </div>
+               <div class="new__card">
+                  <span class="new__number">04</span>
+                  <h3 class="new__title">Agregar cebolla y cilantro</h3>
+                  <p class="new__description">
+                     Añade la cebolla morada en juliana y el cilantro picado. Mezcla con cuidado.
+                  </p>
+               </div>
+               <div class="new__card">
+                  <span class="new__number">05</span>
+                  <h3 class="new__title">Reposar</h3>
+                  <p class="new__description">
+                     Deja reposar entre 10-15 minutos. El pescado adquirirá una textura firme y blanca.
+                  </p>
+               </div>
+               <div class="new__card">
+                  <span class="new__number">06</span>
+                  <h3 class="new__title">Servir</h3>
+                  <p class="new__description">
+                     Sirve con camote sancochado, choclo fresco,cancha serrana y una deliciosa salsa de ají.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
 
-         <!--==================== NEW SECTION ====================-->
-         <section class="new section" id="new">
-            
-         </section>
+      <section class="contact section" id="tiempo">
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <span class="section__subtitle">Información</span>
+               <h2 class="section__title">Tiempo y <span>Porciones</span></h2>
+               
+               <div class="contact__info">
+                  <div class="contact__card">
+                     <i class="ri-time-line"></i>
+                     <h3>Preparación</h3>
+                     <p>20 minutos</p>
+                  </div>
+                  <div class="contact__card">
+                     <i class="ri-timer-line"></i>
+                     <h3>Total</h3>
+                     <p>30 minutos</p>
+                  </div>
+                  <div class="contact__card">
+                     <i class="ri-user-smile-line"></i>
+                  <h3>Porciones</h3>
+                     <p>4 personas</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
 
-         <!--==================== CONTACT SECTION ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+      <section class="new section" id="galeria">
+         <div class="new__container container">
+            <span class="section__subtitle">Sabores del Perú</span>
+            <h2 class="section__title">Galería <span>Culinaria</span></h2>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+<div class="new__content grid">
+                <div class="new__card">
+                   <img src="assets/img/galeria-ceviche.jpg" alt="Ceviche presentation" class="new__img" onerror="this.style.display='none'">
+                   <h3 class="new__title">El Plato Perfecto</h3>
+                   <p class="new__description">Presentación clásica del ceviche peruano con todos sus acompañamientos.</p>
+                </div>
+                <div class="new__card">
+                   <img src="assets/img/galeria-ingredientesfrescos.webp" alt="Ingredientes" class="new__img" onerror="this.style.display='none'">
+                   <h3 class="new__title">Ingredientes Frescos</h3>
+                   <p class="new__description">La clave está en la calidad del pescado y la frescura de los limones.</p>
+                </div>
+             </div>
+         </div>
+      </section>
 
-      <!--========== SCROLL UP ==========-->
-      
+      <section class="contact section" id="contacto">
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <h2 class="section__title">¿Listo para preparar tu <span>Ceviche?</span></h2>
+               <p class="contact__description">
+                  Ahora tienes todos los secretos para preparar el ceviche peruano más auténtico. 
+                  ¡Anímate a cocinar y comparte con tu familia!
+               </p>
+               <a href="#preparacion" class="button">
+                  ¡A Cocinar! <i class="ri-heart-line"></i>
+               </a>
+            </div>
+         </div>
+      </section>
+   </main>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+   <footer class="footer">
+      <div class="footer__container container">
+         <div class="footer__content">
+            <a href="#" class="footer__logo">
+               <i class="ri-leaf-line"></i> Ceviche Peruano
+            </a>
+            <p class="footer__description">
+               Receta tradicional del Perú, compartida con amor.
+            </p>
+         </div>
+         <div class="footer__info">
+            <p class="footer__copy">© 2024 Ceviche Peruano. Todos los derechos reservados.</p>
+         </div>
+      </div>
+   </footer>
 
-      <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="assets/js/main.js"></script>
 </html>
